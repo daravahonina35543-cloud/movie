@@ -1,0 +1,270 @@
+@import"./fonts.css";
+@import"./variables.css";
+
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1568px;
+    margin: 0%;
+}
+
+.header{
+   background-image: url(./../images/john.jpg);
+   height: 100vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin: 0%;
+   padding: 0%;
+}
+
+a, p, span, h1,h2,h3,h4,h5,h6,li {
+    font-family: "Poppins";
+}
+
+.logo{
+    margin: 0%;
+    padding-top: 30px;
+    margin-left: 50px;
+}
+
+.text{
+    font-size: 40px;
+    color: white;
+}
+
+.text_color{
+    color: var(--primary);
+    font-size: 40px;
+}
+
+.button{
+    margin-left: 1350px;
+    margin-top: -30px;
+    
+}
+
+.lang{
+    color: white;
+    background-color: black;
+    opacity: 0.5;
+    
+}
+
+.sign_in{
+    color: white;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.zgl{
+    color: white;
+    margin: 0;
+}
+
+.zagolovok{
+    margin-top: 0%;
+    margin-top: 180px;
+    margin-left: 50px;
+}
+
+.afterzgl{
+    margin: 0%;
+    margin-left:50px ;
+    margin-top: 40px;
+}
+
+.imdb{
+    width: 50px;
+    height: 30px;
+}
+
+.text_two{
+    font-size: 30px;
+    color: white;
+}
+
+.opisanie{
+    margin: 0;
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 450px;
+    height: 100px;
+    color: white;
+}
+
+.watch{
+    margin: 0%;
+    margin-left: 50px;
+    margin-top: -10px;
+    
+}
+
+.now{
+    color: white;
+    background-color: var(--primary);
+}
+
+.trailer{
+    color: white;
+    background: none;
+   
+}
+
+.main{
+    background-color: var(--background);
+    margin: 0%;
+    margin-top: -55px;
+}
+
+.text_three{
+    font-size: 40px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.image{
+    width: 170px;
+    height: 230px;
+    margin: 0%;
+    margin-left: 50px;
+}
+
+.images{
+    width: 170px;
+    height: 230px;
+    margin: 0%;
+    margin-left: 30px;
+}
+
+.button_qwst{
+    margin: 0%;
+    margin-left: 50px ;
+    width: 1460px;
+    text-align: left;
+    height: 40px;
+    color: white;
+    background-color: rgb(60, 60, 60);
+    opacity: 0.85;
+    margin-bottom: 10px;
+}
+.car{
+    background-image: url(./../images/car.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+
+.car_header{
+    color: white;
+    font-size: 40px;
+    margin: 0%;
+    padding-top: 50px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+}
+
+.text_watch{
+    color: white;
+    font-size: 30px;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.car_opisanie{
+      margin: 0;
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 600px;
+    color: white;
+    font-size: 25px;
+    
+}
+
+.now_car{
+    color: white;
+    background-color: var(--primary);
+    margin: 0%;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 130px;
+    height: 40px;
+    margin-bottom: 40px;
+}
+
+.trailer_car{
+    color: white;
+    background: none;
+    margin: 0%;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 130px;
+    height: 40px;
+    margin-bottom: 40px;
+}
+
+.footer{
+    background-color: var(--background);
+    margin: 0%;
+    padding-top: 50px;
+}
+
+.footer_text{
+    font-size: 20px;
+    color: white;
+    margin-right: 300px;
+}
+
+.footer_text_color{
+    color: var(--primary);
+    font-size: 20px;
+    margin-left: -300px;
+    margin-right: 300px;
+}
+
+.footer_text_legal{
+    font-size: 20px;
+    color: white;
+    margin-right: 200px;
+}
+
+.footer_opisanie{
+    margin-top: 30px;
+    color: white;
+    font-size: 15px;
+    width: 300px;
+}
+
+.ftr{
+    padding-left: 392px;
+    margin-top: -85px;
+    padding-bottom: 50px;
+}
+
+.ftr_text{
+color: white;
+font-size: 15px;
+}
+
+.ftr_tw {
+    padding-left: 778px;
+    margin-top: -185px;
+    padding-bottom: 50px;
+}
+
+.ftr_tr {
+    padding-left: 1205px;
+    margin-top: -185px;
+    padding-bottom: 50px;
+}
